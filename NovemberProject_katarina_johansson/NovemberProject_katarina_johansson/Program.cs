@@ -10,22 +10,31 @@ namespace NovemberProject_katarina_johansson
     {
         static void Main(string[] args)
         {
-            Cat c1 = new Cat();
+        
+            Cat c = new Cat();
+           
+
+
             Console.WriteLine("Welcome to the cat collector! :3");
-            Console.WriteLine("You have 10G");
-            Console.ReadKey();
-            Console.WriteLine("Without food cats won't visit you");
+            Console.WriteLine("You start of the game with 10G");
             Console.ReadKey();
             Console.Clear();
-            Console.WriteLine("Would you like to buy food?");
-            Console.WriteLine("A) Yes B) No");
-           string answer =  Console.ReadLine();
-            string A = "A";
-            if ( answer = A)
-            {
-               Console.WriteLine("How much food do you want to buy?");
+            Console.WriteLine("You can spend it on buying things for your yard so that cats will visit you.");
+            Console.WriteLine("(Without food cats won't visit you)");
+            Console.ReadKey();
+            Console.Clear();
 
-            }
+            c.Name();
+           
+              c.Cats();
+           
+
+            c.random();
+
+            c.Cats();
+           
+            Console.ReadKey();
+            
                    
 
             
